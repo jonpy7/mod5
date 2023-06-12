@@ -104,7 +104,7 @@ function buildAndShowHomeHTML (categories) {
 
    
   
-    var chosenCategoryShortName = chooseRandomCategory(categories.short_name="L");
+    var chosenCategoryShortName = chooseRandomCategory(categories.short_name);
   
 
 
@@ -128,8 +128,8 @@ function buildAndShowHomeHTML (categories) {
 
     var insertProperty = function (chooseRandomCategory, chosenCategoryShortName, chosenCategoryShortName) {
       
-      var homeHtmlToInsertIntoMainPage = ;
-      return html;
+      var homeHtmlToInsertIntoMainPage = [];
+      return homeHtmlToInsertIntoMainPage;
     };
     
   
